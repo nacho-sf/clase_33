@@ -1,0 +1,16 @@
+[
+    {
+        "name":"Tigre de Bengala",
+        "info":"Botella Moet con Bengala",
+        "price":20
+    },
+    {
+        "name":"Corona party",
+        "info":"Cubo de 5 coronitas",
+        "price":10
+    },
+    {
+        "info":"Botella de absenta con agua",
+        "price":40
+    }
+]

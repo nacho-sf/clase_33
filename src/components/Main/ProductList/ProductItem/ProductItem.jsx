@@ -11,11 +11,13 @@ export class ProductItem extends Component {
   }
 
   render() {
+    const {info,price} = this.props.data; //Destructuring
     return (
       <article>
         <h2>{this.state.name}</h2>
-        <h3>{this.props.data.info}</h3>
-        <p>Price: {this.props.data.price}€</p>
+        <h3>{info}</h3>
+        <p>Price: {price}€</p>
+        <button onClick={this.props.delete}>Borrar</button>
       </article>
     )
   }
